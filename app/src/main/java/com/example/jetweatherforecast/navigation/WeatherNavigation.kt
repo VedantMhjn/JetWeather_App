@@ -25,7 +25,7 @@ fun WeatherNavigation() {
             MainScreen(navController/*, mainViewModel*/)
         }
         
-        //These following screens aren't made so don't concern yourself why there aren't there.
+        //These following screens aren't made so don't concern yourself why they aren't there.
         composable(WeatherScreens.SearchScreen.name) {
 
         }
