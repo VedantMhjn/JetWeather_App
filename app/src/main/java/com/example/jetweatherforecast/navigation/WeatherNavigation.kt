@@ -24,7 +24,8 @@ fun WeatherNavigation() {
             //val mainViewModel = hiltViewModel<MainViewModel>()
             MainScreen(navController/*, mainViewModel*/)
         }
-
+        
+        //These following screens aren't made so don't concern yourself why there aren't there.
         composable(WeatherScreens.SearchScreen.name) {
 
         }
