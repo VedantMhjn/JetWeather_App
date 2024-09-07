@@ -12,7 +12,7 @@ interface WeatherApi {
     @GET("data/2.5/forecast/daily")
     suspend fun getWeather(
         @Query("q") query: String,
-        @Query("Units") units: String = "imperial",
+        @Query("Units") units: String = "metric",
         @Query("appid") appid: String = Constants.API_KEY
     ): Weather
 //This Weather data class will be used here instead of WeatherObject(Its my conscience)
